@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 98%);
+}
+
+.card{
+  
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border-radius: 15px;
+    width: 350px;
+    height: 545px;
+    box-shadow: 0 0 15px 0 hsl(225, 100%, 94%);
+
+}
+
+
+.card__image{
+
+    width: 350px;
+    border-radius: 15px 15px 0 0 ;
+}
+
+.card__title{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 22px;
+    font-weight: 700;
+    color: hsl(223, 47%, 23%);
+}
+
+.card__text{
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+
+.order{
+    height: 80px;
+    background-color:hsl(225, 100%, 98%);
+    width: 280px;
+    margin: 15px 20px 20px 36px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.order__image{
+    position: absolute;
+    left: 20px;
+}
+
+.order__plan{
+    position: absolute;
+    left: 80px;
+    top: 16px;
+    font-weight: 700;
+    color: hsl(223, 47%, 23%);
+
+}
+
+.order__price{
+    position: absolute;
+    left: 80px;
+    top: 35px;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+
+.order__change{
+    font-weight: 700;
+    position: absolute;
+    right: 20px;
+}
+
+.order__change:hover{
+    color: hsl(246, 82%, 76%);
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.btn--active{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    border-radius: 10px;
+    width: 280px;
+    height: 40px;
+    border: none;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    box-shadow: 0px 5px 20px 0 hsl(246, 82%, 76%);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn--active:hover{
+    background-color:  hsl(246, 82%, 76%);
+    transition: 0.5s;
+}
+
+.btn--cancel{
+    display: block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    width: 280px;
+    height: 40px;
+    border: none;
+    background-color: white;
+    color: hsl(224, 23%, 55%);
+    font-weight: 900;
+    cursor: pointer;
+    
+}
+
+.btn--cancel:hover{
+
+    color: hsl(223, 47%, 23%);
+    transition: 0.5s;
+
+}
+
